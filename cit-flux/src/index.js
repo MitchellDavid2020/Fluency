@@ -1,3 +1,8 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import { render } from "react-dom";
 
-document.write("CIT 261 Fluency App: In React");
+function Hi() {
+  return <p>Hi.</p>;
+}
+
+render(<Hi />, document.getElementById("app"));
