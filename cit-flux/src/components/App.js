@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import HomePage from "./home/HomePage";
 import week1 from "./fluency_evidence/week1/Week1";
 import week2 from "./fluency_evidence/week2/Week2";
@@ -13,23 +13,27 @@ import week9 from "./fluency_evidence/week9/Week9";
 import week10 from "./fluency_evidence/week10/Week10";
 import FinalApp from "./fluency_evidence/final_app/FinalApp";
 import Header from "./common/Header";
+import PageNotFound from "./PageNotFound";
 
 function App() {
   return (
     <div className="container-fluid">
       <Header />
-      <Route exact path="/" component={HomePage} />
-      <Route exact path="/week1" component={week1} />
-      <Route exact path="/week2" component={week2} />
-      <Route exact path="/week3" component={week3} />
-      <Route exact path="/week4" component={week4} />
-      <Route exact path="/week5" component={week5} />
-      <Route exact path="/week6" component={week6} />
-      <Route exact path="/week7" component={week7} />
-      <Route exact path="/week8" component={week8} />
-      <Route exact path="/week9" component={week9} />
-      <Route exact path="/week10" component={week10} />
-      <Route exact path="/final_app" component={FinalApp} />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/week1" component={week1} />
+        <Route exact path="/week2" component={week2} />
+        <Route exact path="/week3" component={week3} />
+        <Route exact path="/week4" component={week4} />
+        <Route exact path="/week5" component={week5} />
+        <Route exact path="/week6" component={week6} />
+        <Route exact path="/week7" component={week7} />
+        <Route exact path="/week8" component={week8} />
+        <Route exact path="/week9" component={week9} />
+        <Route exact path="/week10" component={week10} />
+        <Route exact path="/final_app" component={FinalApp} />
+        <Route component={PageNotFound} />
+      </Switch>
     </div>
   );
 }
