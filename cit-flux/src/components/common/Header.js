@@ -10,7 +10,7 @@ const Header = () => {
         Home
       </NavLink>
       {" | "}
-      <NavLink to="/week1" activeStyle={activeStyle}>
+      <NavLink to="/Week1" activeStyle={activeStyle}>
         Week 1
       </NavLink>
       {" | "}
