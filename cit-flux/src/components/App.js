@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import HomePage from "./home/HomePage";
-import week1 from "./fluency_evidence/week1/Week1";
+import Week1 from "./fluency_evidence/week1/Week1";
 import week2 from "./fluency_evidence/week2/Week2";
 import week3 from "./fluency_evidence/week3/Week3";
 import week4 from "./fluency_evidence/week4/Week4";
@@ -14,6 +14,7 @@ import week10 from "./fluency_evidence/week10/Week10";
 import FinalApp from "./fluency_evidence/final_app/FinalApp";
 import Header from "./common/Header";
 import PageNotFound from "./PageNotFound";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/week1" component={week1} />
+        <Route exact path="/week1" component={Week1} />
         <Route exact path="/week2" component={week2} />
         <Route exact path="/week3" component={week3} />
         <Route exact path="/week4" component={week4} />
