@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const webpackBundleAnalyzer = require("webpack-bundle-analyzer");
 
-process.env.NODE_ENV = "http://MitchellDavid2020.github.io/Fluency";
+process.env.NODE_ENV = "production";
 
 module.exports = {
   mode: "production",

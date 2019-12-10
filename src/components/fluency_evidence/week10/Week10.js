@@ -9,8 +9,9 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import A1Image from "./Array1.png";
-import A2Image from "./Array2.png";
+import xml1 from "./xml1.jpg";
+import xml2 from "./xml2.jpg";
+import xml3 from "./xml3.jpg";
 
 class Week10 extends React.Component {
   render() {
@@ -24,44 +25,23 @@ class Week10 extends React.Component {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <Card.Title>Arrays</Card.Title>
+                <Card.Title>XMLHttpRequest Objects</Card.Title>
                 <Card.Text>
                   {""}
-                  Arrays are basically special variables that can hold more than
-                  one value at any time. This becomes useful for when you have
-                  many similar variables that contain similar values.
+                  Today all browsers are using XMLHttpRequest objects. They can
+                  be used to exchange data with a web server behind the scenes.
+                  This makes it so you can update the page without having to
+                  reload the page. <br />
+                  <br /> This can be seen below:
                   <br />
                   <br />
-                  For example instead of declaring a list of favorite soda
-                  drinks like this: <br />
-                  <br />
-                  var soda1 = "Diet Coke"; <br />
-                  var soda2 = "Rootbeer"; <br />
-                  var soda3 = "Sprite"; <br />
-                  <br />
-                  You would instead display it like this:
-                </Card.Text>
-                <Image src={A1Image} />
-
-                <Card.Title>
-                  <br />
-                  How to access items in the array
-                  <br />
-                </Card.Title>
-                <Card.Text>
-                  <br />
-                  In order to select an item in the array you must display it in
-                  brackets <b>soda[0]</b> with the value index number.
+                  <Image src={xml1} />
+                  <Image src={xml2} />
+                  <Image src={xml3} />
                   <br />
                   <br />
-                  For example: <br />
-                </Card.Text>
-                <Image src={A2Image} />
-                <Card.Text>
                   <br />
-                  You can also change an item in the array by declaring <br />
-                  <b>var soda[0] = "Fresca"</b> with the result of{" "}
-                  <i>...["Fresca", "Rootbeer", "Sprite"]</i>.
+                  <i>Source: https://www.w3schools.com/js/js_ajax_http.asp </i>
                 </Card.Text>
               </Card.Body>
             </Accordion.Collapse>

@@ -9,8 +9,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import A1Image from "./Array1.png";
-import A2Image from "./Array2.png";
+import scratch1 from "./scratch1.jpg";
 
 class Week9 extends React.Component {
   render() {
@@ -27,83 +26,25 @@ class Week9 extends React.Component {
                 <Card.Title>Transitions without custom libraries</Card.Title>
                 <Card.Text>
                   {""}
-                  Arrays are basically special variables that can hold more than
-                  one value at any time. This becomes useful for when you have
-                  many similar variables that contain similar values.
+                  <a href="https://codepen.io/pen/?&editable=true">
+                    Here we can see how this animation can be done without
+                    triggering custom libraries.{" "}
+                  </a>
+                  <br />
+                  Much of what will happen in doing it without an library is
+                  understanding that the x,y values play a huge role in creating
+                  a situation of transitioning and triggering libraries.
+                  <br />
+                  <Image src={scratch1} />
                   <br />
                   <br />
-                  For example instead of declaring a list of favorite soda
-                  drinks like this: <br />
                   <br />
-                  var soda1 = "Diet Coke"; <br />
-                  var soda2 = "Rootbeer"; <br />
-                  var soda3 = "Sprite"; <br />
-                  <br />
-                  You would instead display it like this:
+                  <i>
+                    Source:
+                    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions{" "}
+                  </i>
                 </Card.Text>
-                <Image src={A1Image} />
-
-                <Card.Title>
-                  <br />
-                  How to access items in the array
-                  <br />
-                </Card.Title>
-                <Card.Text>
-                  <br />
-                  In order to select an item in the array you must display it in
-                  brackets <b>soda[0]</b> with the value index number.
-                  <br />
-                  <br />
-                  For example: <br />
-                </Card.Text>
-                <Image src={A2Image} />
-                <Card.Text>
-                  <br />
-                  You can also change an item in the array by declaring <br />
-                  <b>var soda[0] = "Fresca"</b> with the result of{" "}
-                  <i>...["Fresca", "Rootbeer", "Sprite"]</i>.
-                </Card.Text>
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="2">
-              CSS3 Transforms Without Custom Libraries{" "}
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="2">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="3">
-              CSS3 Animations without custom libraries
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="3">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="4">
-              Functions
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="4">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="5">
-              Arrays
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="5">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="6">
-              Arrays
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="6">
-              <Card.Body>Hello! I'm another body</Card.Body>
+              </Card.Body>{" "}
             </Accordion.Collapse>
           </Card>
         </Accordion>

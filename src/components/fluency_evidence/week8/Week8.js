@@ -9,8 +9,10 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import A1Image from "./Array1.png";
-import A2Image from "./Array2.png";
+import vid1 from "./vid1.jpg";
+import aud1 from "./aud1.jpg";
+import can1 from "./can1.jpg";
+import can2 from "./can2.jpg";
 
 class Week8 extends React.Component {
   render() {
@@ -27,41 +29,32 @@ class Week8 extends React.Component {
                 <Card.Title>HTML5 Tags: Video</Card.Title>
                 <Card.Text>
                   {""}
-                  Arrays are basically special variables that can hold more than
-                  one value at any time. This becomes useful for when you have
-                  many similar variables that contain similar values.
+                  Before html5 we had to sue flash to play videos. But now HTML5
+                  gets rid of the old and in with the new in using the video
+                  html tags in our elements as a standard way of embedding
+                  videos into pages. Height and Width are always a good idea to
+                  include incase the page or device can't handle the size of the
+                  video. Also auto play is an option to pull in the user into
+                  the site or app as they visit the application. Like seen here:{" "}
                   <br />
                   <br />
-                  For example instead of declaring a list of favorite soda
-                  drinks like this: <br />
                   <br />
-                  var soda1 = "Diet Coke"; <br />
-                  var soda2 = "Rootbeer"; <br />
-                  var soda3 = "Sprite"; <br />
-                  <br />
-                  You would instead display it like this:
-                </Card.Text>
-                <Image src={A1Image} />
-
-                <Card.Title>
-                  <br />
-                  How to access items in the array
-                  <br />
-                </Card.Title>
-                <Card.Text>
-                  <br />
-                  In order to select an item in the array you must display it in
-                  brackets <b>soda[0]</b> with the value index number.
+                  <Image src={vid1} />
                   <br />
                   <br />
-                  For example: <br />
-                </Card.Text>
-                <Image src={A2Image} />
-                <Card.Text>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/xos2MnVxe-c"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  ></iframe>
                   <br />
-                  You can also change an item in the array by declaring <br />
-                  <b>var soda[0] = "Fresca"</b> with the result of{" "}
-                  <i>...["Fresca", "Rootbeer", "Sprite"]</i>.
+                  <br />
+                  <br />
+                  <i>
+                    Source: https://www.youtube.com/watch?v=xos2MnVxe-c ,
+                    https://www.w3schools.com/html/html5_video.asp{" "}
+                  </i>
                 </Card.Text>
               </Card.Body>
             </Accordion.Collapse>
@@ -71,7 +64,33 @@ class Week8 extends React.Component {
               HTML5 Tags: Audio
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="2">
-              <Card.Body>Hello! I'm another body</Card.Body>
+              <Card.Body>
+                <Card.Title>HTML5 Tags: Audio</Card.Title>
+                <Card.Text>
+                  {""}
+                  Here we see audio html tag being used. Audio files can only be
+                  played in a browser with a plugin, with html5 a standard is
+                  created to use this audio tag. <br />
+                  <br />
+                  <br />
+                  <Image src={aud1} />
+                  <br />
+                  Above we see that the audio tag is being called with controls.
+                  Along with this the type format is declared. Audio can also be
+                  autoplayed on the website/application.
+                  <br />
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/xos2MnVxe-c"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  ></iframe>
+                  <br />
+                  <br />
+                  <br />
+                  <i>https://www.w3schools.com/html/html5_audio.asp </i>
+                </Card.Text>
+              </Card.Body>{" "}
             </Accordion.Collapse>
           </Card>
           <Card>
@@ -79,7 +98,31 @@ class Week8 extends React.Component {
               HTML5 Tags: Canvas
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="3">
-              <Card.Body>Hello! I'm another body</Card.Body>
+              <Card.Body>
+                <Card.Title>HTML5 Tags: Canvas</Card.Title>
+                <Card.Text>
+                  {""}
+                  Canvas element is used to draw graphics on the fly with
+                  JavaScript. The canvas element is only a container for
+                  graphics. You must use JavaScript to draw the graphics. :{" "}
+                  <br />
+                  <br />
+                  <br />
+                  <Image src={can1} />
+                  <br />
+                  <br />
+                  Above we see that a square is drawn on the page as seen here:{" "}
+                  <br />
+                  <br />
+                  <Image src={can2} />
+                  <br />
+                  <br />
+                  <i>
+                    Source: https://www.youtube.com/watch?v=xos2MnVxe-c ,
+                    https://www.w3schools.com/html/html5_video.asp{" "}
+                  </i>
+                </Card.Text>
+              </Card.Body>{" "}
             </Accordion.Collapse>
           </Card>
         </Accordion>

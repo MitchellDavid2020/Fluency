@@ -9,8 +9,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import A1Image from "./Array1.png";
-import A2Image from "./Array2.png";
+import store1 from "./store1.jpg";
 
 class Week5 extends React.Component {
   render() {
@@ -24,70 +23,29 @@ class Week5 extends React.Component {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <Card.Title>Arrays</Card.Title>
+                <Card.Title>Local Storage: API</Card.Title>
                 <Card.Text>
                   {""}
-                  Arrays are basically special variables that can hold more than
-                  one value at any time. This becomes useful for when you have
-                  many similar variables that contain similar values.
+                  LocalStorage object stores the data with no expiration data.
+                  The data will not be deleted when the browser is closed, and
+                  will be available the next day, week, or year. localStorage
+                  does this with no expiration data. sessionStorage stores data
+                  for only one session, when the browser tab is closed.
                   <br />
                   <br />
-                  For example instead of declaring a list of favorite soda
-                  drinks like this: <br />
+                  <Image src={store1} />
                   <br />
-                  var soda1 = "Diet Coke"; <br />
-                  var soda2 = "Rootbeer"; <br />
-                  var soda3 = "Sprite"; <br />
+                  As seen above the information is localStorage.setItem() into
+                  the localStorage. Then if it is ever needing to be requested
+                  use the localStorage.getItem().
                   <br />
-                  You would instead display it like this:
+                  <br />
+                  <i>
+                    {" "}
+                    Source: https://www.w3schools.com/html/html5_webstorage.asp{" "}
+                  </i>
                 </Card.Text>
-                <Image src={A1Image} />
-
-                <Card.Title>
-                  <br />
-                  How to access items in the array
-                  <br />
-                </Card.Title>
-                <Card.Text>
-                  <br />
-                  In order to select an item in the array you must display it in
-                  brackets <b>soda[0]</b> with the value index number.
-                  <br />
-                  <br />
-                  For example: <br />
-                </Card.Text>
-                <Image src={A2Image} />
-                <Card.Text>
-                  <br />
-                  You can also change an item in the array by declaring <br />
-                  <b>var soda[0] = "Fresca"</b> with the result of{" "}
-                  <i>...["Fresca", "Rootbeer", "Sprite"]</i>.
-                </Card.Text>
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="2">
-              Storing and Retrieving Simple Data{" "}
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="2">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="3">
-              Storing Arrays
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="3">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="4">
-              Storing Objects
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="4">
-              <Card.Body>Hello! I'm another body</Card.Body>
+              </Card.Body>{" "}
             </Accordion.Collapse>
           </Card>
         </Accordion>

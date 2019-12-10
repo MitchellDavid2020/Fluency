@@ -9,8 +9,8 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import A1Image from "./Array1.png";
-import A2Image from "./Array2.png";
+import js1 from "./js1.jpg";
+import str1 from "./str1.jpg";
 
 class Week3 extends React.Component {
   render() {
@@ -24,44 +24,24 @@ class Week3 extends React.Component {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <Card.Title>Parse</Card.Title>
+                <Card.Title>JSON Parse</Card.Title>
                 <Card.Text>
                   {""}
-                  Arrays are basically special variables that can hold more than
-                  one value at any time. This becomes useful for when you have
-                  many similar variables that contain similar values.
+                  JSON is mostly used for passing data to and from a web server.
+                  When receiving the data from a web server, the data is always
+                  a string. Parse the data with JSON.parse(), then the data
+                  becomes a JS object.
                   <br />
                   <br />
-                  For example instead of declaring a list of favorite soda
-                  drinks like this: <br />
-                  <br />
-                  var soda1 = "Diet Coke"; <br />
-                  var soda2 = "Rootbeer"; <br />
-                  var soda3 = "Sprite"; <br />
-                  <br />
-                  You would instead display it like this:
-                </Card.Text>
-                <Image src={A1Image} />
-
-                <Card.Title>
-                  <br />
-                  How to access items in the array
-                  <br />
-                </Card.Title>
-                <Card.Text>
-                  <br />
-                  In order to select an item in the array you must display it in
-                  brackets <b>soda[0]</b> with the value index number.
+                  Notice below where var obj is pulling in JSON data, because
+                  '.parse' is converting it into a usable object. <br />
+                  <Image src={js1} />
                   <br />
                   <br />
-                  For example: <br />
-                </Card.Text>
-                <Image src={A2Image} />
-                <Card.Text>
                   <br />
-                  You can also change an item in the array by declaring <br />
-                  <b>var soda[0] = "Fresca"</b> with the result of{" "}
-                  <i>...["Fresca", "Rootbeer", "Sprite"]</i>.
+                  <br />
+                  <br />
+                  <i>Source: https://www.w3schools.com/js/js_json_parse.asp </i>
                 </Card.Text>
               </Card.Body>
             </Accordion.Collapse>
@@ -71,7 +51,26 @@ class Week3 extends React.Component {
               Stringify
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="2">
-              <Card.Body>Hello! I'm another body</Card.Body>
+              <Card.Body>
+                <Card.Title>JSON Stringify</Card.Title>
+                <Card.Text>
+                  {""}
+                  JSON.stringify is a little different. Here it will convert an
+                  object into a string. Below we can see that obj has three
+                  values that are all objects. Once we use JSON.stringify(obj)
+                  it receives the objects and converts them in the same order
+                  but back as JSON in strings.
+                  <br />
+                  <br />
+                  <Image src={str1} />
+                  <br />
+                  <br />
+                  <br />
+                  <i>
+                    Source: https://www.w3schools.com/js/js_json_stringify.asp{" "}
+                  </i>
+                </Card.Text>
+              </Card.Body>{" "}
             </Accordion.Collapse>
           </Card>
         </Accordion>

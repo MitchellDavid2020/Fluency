@@ -9,8 +9,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-import A1Image from "./Array1.png";
-import A2Image from "./Array2.png";
+import get1 from "./get1.jpg";
 
 class Week4 extends React.Component {
   render() {
@@ -24,46 +23,45 @@ class Week4 extends React.Component {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <Card.Title>Arrays</Card.Title>
+                <Card.Title>AJAX Requesting a JSON file</Card.Title>
                 <Card.Text>
                   {""}
-                  Arrays are basically special variables that can hold more than
-                  one value at any time. This becomes useful for when you have
-                  many similar variables that contain similar values.
+                  Sending a request to a server, we will be using the open() and
+                  send() methods of the XMLHttpRequest object: <br />
+                  <br />
+                  xhttp.open("GET", "ajax_data.txt", true);
+                  <br />
+                  xhttp.send();
+                  <br />
+                  Using this with a loadDoc function as seen below will return a
+                  response when it was requested. These are very useful when
+                  working with POSTMAN and hitting endpoints.
+                  <br />
+                  <Image src={get1} />
                   <br />
                   <br />
-                  For example instead of declaring a list of favorite soda
-                  drinks like this: <br />
+                  Same can be done with the POST method. GET is mostly used
+                  because it is simple and faster. Post can be used in most
+                  cases. But we should always use post when needing to do the
+                  following:
+                  <ul>
+                    <li>
+                      When a cached file is not an option(updating a file on a
+                      database for example).
+                    </li>
+                    <li>Sending a large amount of data to the server.</li>
+                    <li>
+                      Sending a user input (Which can containt unknown
+                      characters), POST is more robust and secure than GET.
+                    </li>
+                  </ul>
                   <br />
-                  var soda1 = "Diet Coke"; <br />
-                  var soda2 = "Rootbeer"; <br />
-                  var soda3 = "Sprite"; <br />
                   <br />
-                  You would instead display it like this:
+                  <i>
+                    Source: https://www.w3schools.com/js/js_ajax_http_send.asp{" "}
+                  </i>
                 </Card.Text>
-                <Image src={A1Image} />
-
-                <Card.Title>
-                  <br />
-                  How to access items in the array
-                  <br />
-                </Card.Title>
-                <Card.Text>
-                  <br />
-                  In order to select an item in the array you must display it in
-                  brackets <b>soda[0]</b> with the value index number.
-                  <br />
-                  <br />
-                  For example: <br />
-                </Card.Text>
-                <Image src={A2Image} />
-                <Card.Text>
-                  <br />
-                  You can also change an item in the array by declaring <br />
-                  <b>var soda[0] = "Fresca"</b> with the result of{" "}
-                  <i>...["Fresca", "Rootbeer", "Sprite"]</i>.
-                </Card.Text>
-              </Card.Body>
+              </Card.Body>{" "}
             </Accordion.Collapse>
           </Card>
         </Accordion>
