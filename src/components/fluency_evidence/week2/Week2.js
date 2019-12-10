@@ -9,8 +9,8 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
-/* import A1Image from "./Array1.png";
-import A2Image from "./Array2.png"; */
+import A1Image from "./Array1.png";
+import A2Image from "./Array2.png";
 
 class Week2 extends React.Component {
   render() {

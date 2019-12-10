@@ -12,7 +12,7 @@ import Image from "react-bootstrap/Image";
 import A1Image from "./Array1.png";
 import A2Image from "./Array2.png";
 
-class Week1 extends React.Component {
+class Week6 extends React.Component {
   render() {
     return (
       <Jumbotron>
@@ -112,4 +112,4 @@ class Week1 extends React.Component {
   }
 }
 
-export default Week1;
+export default Week6;
