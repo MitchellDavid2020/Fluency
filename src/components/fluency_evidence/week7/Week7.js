@@ -16,11 +16,11 @@ class Week7 extends React.Component {
   render() {
     return (
       <Jumbotron>
-        <h2> Week 1: JavaScript</h2>
+        <h2> Week 7: Manipulating CSS Class Properties Using JavaScript</h2>
         <Accordion defaultActiveKey="0">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="1">
-              Arrays
+              Manipulating CSS class properties using javascript
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
@@ -68,7 +68,8 @@ class Week7 extends React.Component {
           </Card>
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="2">
-              Conditional Statements
+              Creating CSS3 Transitions and Animations in CSS and triggering
+              them with JavaScript{" "}
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="2">
               <Card.Body>Hello! I'm another body</Card.Body>

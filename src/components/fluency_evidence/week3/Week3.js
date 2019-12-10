@@ -16,15 +16,15 @@ class Week3 extends React.Component {
   render() {
     return (
       <Jumbotron>
-        <h2> Week 1: JavaScript</h2>
+        <h2> Week 3: JSON</h2>
         <Accordion defaultActiveKey="0">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="1">
-              Arrays
+              JSON
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <Card.Title>Arrays</Card.Title>
+                <Card.Title>Parse</Card.Title>
                 <Card.Text>
                   {""}
                   Arrays are basically special variables that can hold more than
@@ -68,41 +68,9 @@ class Week3 extends React.Component {
           </Card>
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="2">
-              Conditional Statements
+              Stringify
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="2">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="3">
-              Loops
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="3">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="4">
-              Functions
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="4">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="5">
-              Arrays
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="5">
-              <Card.Body>Hello! I'm another body</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="6">
-              Arrays
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="6">
               <Card.Body>Hello! I'm another body</Card.Body>
             </Accordion.Collapse>
           </Card>
