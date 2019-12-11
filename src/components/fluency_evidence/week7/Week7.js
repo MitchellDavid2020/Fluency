@@ -36,22 +36,22 @@ class Week7 extends React.Component {
                   color to the color of Blue.
                   <br />
                   <br />
-                  <Image src={css1} />
+                  <Image src={css1} fluid />
                   <br />
                   <br />
                   <br />
                   <i>
                     Source:
-                    https://stackoverflow.com/questions/19353331/getting-or-changing-css-class-property-with-javascript-using-dom-style{" "}
+                    https://stackoverflow.com/questions/19353331/getting-or-changing-css-class-property-with-javascript-using-dom-style
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="2">
               Creating CSS3 Transitions and Animations in CSS and triggering
-              them with JavaScript{" "}
+              them with JavaScript
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="2">
               <Card.Body>
@@ -65,7 +65,7 @@ class Week7 extends React.Component {
                   red. Doing so below changes the heading to red.
                   <br />
                   <br />
-                  <Image src={css2} />
+                  <Image src={css2} fluid />
                   <br />
                   <br />
                   Below we see a function being called to animate an object from
@@ -74,16 +74,16 @@ class Week7 extends React.Component {
                   <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_animate_3">
                     Animation example from code screenshot below
                   </a>
-                  <Image src={css2} />
+                  <Image src={css2} fluid />
                   <br />
                   <br />
                   A
                   <br />
                   <i>
-                    Source: https://www.w3schools.com/js/js_json_stringify.asp{" "}
+                    Source: https://www.w3schools.com/js/js_json_stringify.asp
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
@@ -108,7 +108,7 @@ class Week7 extends React.Component {
                   and the transition begins. .
                   <br />
                   <br />
-                  <Image src={mobile1} />
+                  <Image src={mobile1} fluid />
                   <a href="https://googlesamples.github.io/web-fundamentals/fundamentals/design-and-ux/animations/box-move-simple.html">
                     Try it out
                   </a>
@@ -117,10 +117,10 @@ class Week7 extends React.Component {
                   <br />
                   <i>
                     Source:
-                    https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript,{" "}
+                    https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript,
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
         </Accordion>

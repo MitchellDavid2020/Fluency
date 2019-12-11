@@ -11,7 +11,6 @@ import Week7 from "./fluency_evidence/week7/Week7";
 import Week8 from "./fluency_evidence/week8/Week8";
 import Week9 from "./fluency_evidence/week9/Week9";
 import Week10 from "./fluency_evidence/week10/Week10";
-import FinalApp from "./fluency_evidence/final_app/FinalApp";
 import Header from "./common/Header";
 import PageNotFound from "./PageNotFound";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -32,7 +31,6 @@ function App() {
         <Route exact path="/week8" component={Week8} />
         <Route exact path="/week9" component={Week9} />
         <Route exact path="/week10" component={Week10} />
-        <Route exact path="/final_app" component={FinalApp} />
         <Route component={PageNotFound} />
       </Switch>
     </div>

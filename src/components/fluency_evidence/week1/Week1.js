@@ -46,7 +46,7 @@ class Week1 extends React.Component {
                   <br />
                   You would instead display it like this:
                 </Card.Text>
-                <Image src={A1Image} />
+                <Image src={A1Image} fluid />
 
                 <Card.Title>
                   <br />
@@ -61,7 +61,7 @@ class Week1 extends React.Component {
                   <br />
                   For example: <br />
                 </Card.Text>
-                <Image src={A2Image} />
+                <Image src={A2Image} fluid />
                 <Card.Text>
                   <br />
                   You can also change an item in the array by declaring <br />
@@ -94,7 +94,7 @@ class Week1 extends React.Component {
                     is true.
                   </li>
                   <br />
-                  <Image src={con1} />
+                  <Image src={con1} fluid />
                   <li>
                     <b>
                       ELSE: this condition will be executed if the same
@@ -107,7 +107,7 @@ class Week1 extends React.Component {
                     to test if the first condition is false.
                   </li>
                   <br />
-                  <Image src={con2} />
+                  <Image src={con2} fluid />
                   <br />
                   <br />
                   <br />
@@ -140,7 +140,7 @@ class Week1 extends React.Component {
                   back to the second statement it will have a new value to
                   decide with. <br /> <br />
                   Example: <br />
-                  <Image src={loop1} />
+                  <Image src={loop1} fluid />
                   <br /> This would return the value of "Fish".
                   <br />
                   <br />
@@ -150,7 +150,7 @@ class Week1 extends React.Component {
                   false, then the program will exit the loop. <br />
                   <br />
                   For example: <br />
-                  <Image src={loop2} />
+                  <Image src={loop2} fluid />
                   <br /> This would exit the while loop with a value of "6".
                   <br />
                   <br />
@@ -177,7 +177,7 @@ class Week1 extends React.Component {
                   in to return a new value from that function. <br />
                   <br />
                   <b>Example:</b> <br />
-                  <Image src={function1} />
+                  <Image src={function1} fluid />
                   <br />
                   <br />
                   The function above has a unique name next to it with

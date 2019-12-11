@@ -23,7 +23,7 @@ class Week6 extends React.Component {
         <Accordion defaultActiveKey="0">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="1">
-              DOM{" "}
+              DOM
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
@@ -35,26 +35,25 @@ class Week6 extends React.Component {
                   lower case before creating the element.
                   <br />
                   <br />
-                  <Image src={dom1} />
+                  <Image src={dom1} fluid />
                   <br />
                   <br />
                   Below we can see that 'p' element with some text, used
                   innerText to set the text, and append it to the document: An
                   element object, which represents the created element node is
                   the return value.
-                  <Image src={dom2} />
+                  <Image src={dom2} fluid />
                   <br />
                   <br />
                   <br />
                   <i>
-                    {" "}
                     Source:
                     https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
                     ,
-                    https://www.w3schools.com/jsref/met_document_createelement.asp{" "}
+                    https://www.w3schools.com/jsref/met_document_createelement.asp
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
@@ -74,16 +73,16 @@ class Week6 extends React.Component {
                   which appends to the paragraph. You can also use it to move an
                   element from one element to another.
                   <br />
-                  <Image src={child1} />
+                  <Image src={child1} fluid />
                   <br />
                   <br />
                   <br />
                   <i>
                     Source:
-                    https://www.w3schools.com/jsref/met_node_appendchild.asp{" "}
+                    https://www.w3schools.com/jsref/met_node_appendchild.asp
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
@@ -103,16 +102,16 @@ class Week6 extends React.Component {
                   insert li to the list. You can use insertBefore() method to
                   insert or move an existing elements.
                   <br />
-                  <Image src={before1} />
+                  <Image src={before1} fluid />
                   <br />
                   <br />
                   <br />
                   <i>
                     Source:
-                    https://www.w3schools.com/jsref/met_node_insertbefore.asp{" "}
+                    https://www.w3schools.com/jsref/met_node_insertbefore.asp
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
@@ -133,16 +132,16 @@ class Week6 extends React.Component {
                   was removed for the index of 0, Coffee was removed when it was
                   outputed.
                   <br />
-                  <Image src={remove1} />
+                  <Image src={remove1} fluid />
                   <br />
                   <br />
                   <br />
                   <i>
                     Source:
-                    https://www.w3schools.com/jsref/met_node_removechild.asp{" "}
+                    https://www.w3schools.com/jsref/met_node_removechild.asp
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
         </Accordion>

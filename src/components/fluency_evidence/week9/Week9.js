@@ -28,23 +28,23 @@ class Week9 extends React.Component {
                   {""}
                   <a href="https://codepen.io/pen/?&editable=true">
                     Here we can see how this animation can be done without
-                    triggering custom libraries.{" "}
+                    triggering custom libraries.
                   </a>
                   <br />
                   Much of what will happen in doing it without an library is
                   understanding that the x,y values play a huge role in creating
                   a situation of transitioning and triggering libraries.
                   <br />
-                  <Image src={scratch1} />
+                  <Image src={scratch1} fluid />
                   <br />
                   <br />
                   <br />
                   <i>
                     Source:
-                    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions{" "}
+                    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
         </Accordion>

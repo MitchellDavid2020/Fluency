@@ -33,53 +33,53 @@ class Week2 extends React.Component {
                 <Card.Text>
                   {""}
                   Almost everything is an object in JavaScript:
-                  <ul>
-                    <li>Booleans</li>
-                    <li>Numbers</li>
-                    <li>Strings</li>
-                    <li>Dates</li>
-                    <li>Maths</li>
-                    <li>Regular Expressions</li>
-                    <li>Arrays</li>
-                    <li>Functions</li>
-                    <li>Objects</li>
-                  </ul>
+                  <li>Booleans</li>
+                  <br />
+                  <li>Numbers</li>
+                  <br />
+                  <li>Strings</li>
+                  <br />
+                  <li>Dates</li>
+                  <br />
+                  <li>Maths</li>
+                  <br />
+                  <li>Regular Expressions</li>
+                  <br />
+                  <li>Arrays</li>
+                  <br />
+                  <li>Functions</li>
+                  <br />
+                  <li>Objects</li>
                   <br />
                   What can't be an object in JavaScript are <b>
                     primitives
                   </b>{" "}
-                  <Card.Title>
-                    Creating a Javascript Object with Functions
-                  </Card.Title>
+                  <b> Creating a Javascript Object with Functions</b>
                   <br />
                   <br />
                   The following are ways you can create new objects: <br />
-                  <ul>
-                    <li>Using an Object Literal</li>{" "}
-                  </ul>
                   <br />
+                  <li>Using an Object Literal</li> <br />
                   When doing it this way, you are both defining and creating an
                   object in one statement. Names being paird up with values:
                   <br />
-                  <Image src={object1} />
-                  <ul>
-                    <li>Using the JavaScript keyword new</li>
-                  </ul>
+                  <Image src={object1} fluid />
+                  <br />
+                  <li>Using the JavaScript keyword new</li>
+                  <br />
                   The following shows that a new keyword can do with objects.
                   Var person is tied to new Object() then additional objects are
                   created as person.values. This way is more complicated to
                   read, but still an option:
                   <br />
-                  <Image src={object2} />
-                  <ul>
-                    {" "}
-                    <li>Javascript Objects are Mutable</li>
-                  </ul>
+                  <Image src={object2} fluid /> <br />
+                  <li>Javascript Objects are Mutable</li>
+                  <br />
                   Objects are mutable, they are called out by reference, not by
                   the value of the object. This shows the value from person
                   x.age is changed from 50 to 10:
                   <br />
-                  <Image src={object3} />
+                  <Image src={object3} fluid />
                   <br />
                   <br />
                   <br />
@@ -99,19 +99,18 @@ class Week2 extends React.Component {
               <Card.Body>
                 <Card.Title>Classes</Card.Title>
                 <Card.Text>
-                  {""}
                   With using inheritance we must learn about class definition.
                   Using a keyword class to create a class, requires us to use
                   the contructor() method. In order to get an object from a
                   class the contructor method is called each time.
-                  <Card.Title>Inheritance</Card.Title>
+                  <b>Inheritance</b>
                   <br />
                   <br />
                   To create class inheritance, we must use the extends keyword.
                   Classes with a class inheritance inherits all the methods from
                   another class: <br />
                   <br />
-                  <Image src={inh1} />
+                  <Image src={inh1} fluid />
                   <br />
                   Notice in this example the document calls mycar.show() which
                   is an object that calls model which it extends the car class.
@@ -143,7 +142,7 @@ class Week2 extends React.Component {
                   used in changing values. Such as dog["collarName"] + " is " +
                   dog["age"] + " human years old.";
                   <br />
-                  <Image src={property1} />
+                  <Image src={property1} fluid />
                   <br />
                   <br />
                   <br />
@@ -172,7 +171,7 @@ class Week2 extends React.Component {
                   <br />
                   <br />
                   <br />
-                  <Image src={method1} />
+                  <Image src={method1} fluid />
                   <br />
                   <br />
                   Notice above the method fullName() is assecced from the person
@@ -184,7 +183,7 @@ class Week2 extends React.Component {
                     Source: https://www.w3schools.com/js/js_object_methods.asp{" "}
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
@@ -203,7 +202,7 @@ class Week2 extends React.Component {
                   end the object is returned.
                   <br />
                   <br />
-                  <Image src={instant1} />
+                  <Image src={instant1} fluid />
                   <br />
                   <br />
                   <br />
@@ -214,7 +213,7 @@ class Week2 extends React.Component {
                     https://medium.com/@taylorshephard1/instantiation-patterns-in-javascript-7f9463b95839
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
         </Accordion>

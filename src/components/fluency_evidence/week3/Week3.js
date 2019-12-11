@@ -35,7 +35,7 @@ class Week3 extends React.Component {
                   <br />
                   Notice below where var obj is pulling in JSON data, because
                   '.parse' is converting it into a usable object. <br />
-                  <Image src={js1} />
+                  <Image src={js1} fluid />
                   <br />
                   <br />
                   <br />
@@ -62,15 +62,15 @@ class Week3 extends React.Component {
                   but back as JSON in strings.
                   <br />
                   <br />
-                  <Image src={str1} />
+                  <Image src={str1} fluid />
                   <br />
                   <br />
                   <br />
                   <i>
-                    Source: https://www.w3schools.com/js/js_json_stringify.asp{" "}
+                    Source: https://www.w3schools.com/js/js_json_stringify.asp
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
         </Accordion>

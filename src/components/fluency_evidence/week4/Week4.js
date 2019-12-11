@@ -37,7 +37,7 @@ class Week4 extends React.Component {
                   response when it was requested. These are very useful when
                   working with POSTMAN and hitting endpoints.
                   <br />
-                  <Image src={get1} />
+                  <Image src={get1} fluid />
                   <br />
                   <br />
                   Same can be done with the POST method. GET is mostly used
@@ -58,10 +58,10 @@ class Week4 extends React.Component {
                   <br />
                   <br />
                   <i>
-                    Source: https://www.w3schools.com/js/js_ajax_http_send.asp{" "}
+                    Source: https://www.w3schools.com/js/js_ajax_http_send.asp
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
         </Accordion>

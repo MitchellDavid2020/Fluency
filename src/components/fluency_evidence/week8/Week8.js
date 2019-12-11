@@ -35,11 +35,11 @@ class Week8 extends React.Component {
                   videos into pages. Height and Width are always a good idea to
                   include incase the page or device can't handle the size of the
                   video. Also auto play is an option to pull in the user into
-                  the site or app as they visit the application. Like seen here:{" "}
+                  the site or app as they visit the application. Like seen here:
                   <br />
                   <br />
                   <br />
-                  <Image src={vid1} />
+                  <Image src={vid1} fluid />
                   <br />
                   <br />
                   <iframe
@@ -53,7 +53,7 @@ class Week8 extends React.Component {
                   <br />
                   <i>
                     Source: https://www.youtube.com/watch?v=xos2MnVxe-c ,
-                    https://www.w3schools.com/html/html5_video.asp{" "}
+                    https://www.w3schools.com/html/html5_video.asp
                   </i>
                 </Card.Text>
               </Card.Body>
@@ -73,24 +73,18 @@ class Week8 extends React.Component {
                   created to use this audio tag. <br />
                   <br />
                   <br />
-                  <Image src={aud1} />
+                  <Image src={aud1} fluid />
                   <br />
                   Above we see that the audio tag is being called with controls.
                   Along with this the type format is declared. Audio can also be
                   autoplayed on the website/application.
                   <br />
-                  <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/xos2MnVxe-c"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  ></iframe>
                   <br />
                   <br />
                   <br />
                   <i>https://www.w3schools.com/html/html5_audio.asp </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
@@ -104,25 +98,25 @@ class Week8 extends React.Component {
                   {""}
                   Canvas element is used to draw graphics on the fly with
                   JavaScript. The canvas element is only a container for
-                  graphics. You must use JavaScript to draw the graphics. :{" "}
+                  graphics. You must use JavaScript to draw the graphics. :
                   <br />
                   <br />
                   <br />
-                  <Image src={can1} />
+                  <Image src={can1} fluid />
                   <br />
                   <br />
-                  Above we see that a square is drawn on the page as seen here:{" "}
+                  Above we see that a square is drawn on the page as seen here:
                   <br />
                   <br />
-                  <Image src={can2} />
+                  <Image src={can2} fluid />
                   <br />
                   <br />
                   <i>
                     Source: https://www.youtube.com/watch?v=xos2MnVxe-c ,
-                    https://www.w3schools.com/html/html5_video.asp{" "}
+                    https://www.w3schools.com/html/html5_video.asp
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
         </Accordion>

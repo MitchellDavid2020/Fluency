@@ -21,7 +21,7 @@ class Week5 extends React.Component {
             <Accordion.Toggle as={Card.Header} eventKey="1">
               API
             </Accordion.Toggle>
-            <Accordion.Collapse eventKey="1">
+            <Accordion.Collapse eventKey="0">
               <Card.Body>
                 <Card.Title>Local Storage: API</Card.Title>
                 <Card.Text>
@@ -33,7 +33,7 @@ class Week5 extends React.Component {
                   for only one session, when the browser tab is closed.
                   <br />
                   <br />
-                  <Image src={store1} />
+                  <Image src={store1} fluid />
                   <br />
                   As seen above the information is localStorage.setItem() into
                   the localStorage. Then if it is ever needing to be requested
@@ -41,11 +41,10 @@ class Week5 extends React.Component {
                   <br />
                   <br />
                   <i>
-                    {" "}
-                    Source: https://www.w3schools.com/html/html5_webstorage.asp{" "}
+                    Source: https://www.w3schools.com/html/html5_webstorage.asp
                   </i>
                 </Card.Text>
-              </Card.Body>{" "}
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
         </Accordion>

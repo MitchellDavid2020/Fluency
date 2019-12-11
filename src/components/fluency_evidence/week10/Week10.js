@@ -35,9 +35,9 @@ class Week10 extends React.Component {
                   <br /> This can be seen below:
                   <br />
                   <br />
-                  <Image src={xml1} />
-                  <Image src={xml2} />
-                  <Image src={xml3} />
+                  <Image src={xml1} fluid />
+                  <Image src={xml2} fluid />
+                  <Image src={xml3} fluid />
                   <br />
                   <br />
                   <br />
