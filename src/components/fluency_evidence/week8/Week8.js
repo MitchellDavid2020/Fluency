@@ -82,7 +82,10 @@ class Week8 extends React.Component {
                   <br />
                   <br />
                   <br />
-                  <i>https://www.w3schools.com/html/html5_audio.asp </i>
+                  <i>
+                    https://www.w3schools.com/html/html5_audio.asp freesound:
+                    view-source:https://freesound.org/people/abinadimeza/sounds/7521/{" "}
+                  </i>
                 </Card.Text>
               </Card.Body>
             </Accordion.Collapse>

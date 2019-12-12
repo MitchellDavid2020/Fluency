@@ -1,7 +1,6 @@
 {
   "name": "ps-redux",
-  "description": "React and Redux Pluralsight course by Cory House",
-  "homepage": "http://MitchellDavid2020.github.io/Fluency",
+  "homepage": "https://MitchellDavid2020.github.io/Fluency",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --port 3000",
     "clean:build": "rimraf ./build && mkdir build",
@@ -23,10 +22,12 @@
     "react-dom": "16.8.4",
     "react-redux": "6.0.1",
     "react-router-dom": "5.0.0",
+    "react-sound": "^1.2.0",
     "react-toastify": "4.5.2",
     "redux": "4.0.1",
     "redux-thunk": "2.3.0",
-    "reselect": "4.0.0"
+    "reselect": "4.0.0",
+    "video-react": "^0.14.1"
   },
   "devDependencies": {
     "@babel/core": "7.3.4",

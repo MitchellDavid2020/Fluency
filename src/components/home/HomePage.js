@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => (
   <div className="jumbotron">
-    <h1>Pluralsight Administration</h1>
-    <p>React, Redux and React Router for ultra-responsive web apps.</p>
+    <h1>CIT 270 David Mitchell</h1>
+    <p>Having fun with my first react app this semester.</p>
     <Link to="week1" className="btn btn-primary btn-lg">
       Week 1 Javascript
     </Link>
