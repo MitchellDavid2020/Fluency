@@ -1,9 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-/* import { connect } from "react-redux";
-import * as courseActions from "../../../redux/actions/courseActions";
-import PropTypes from "prop-types";
-import { bindActionCreators } from "redux"; */
 import "bootstrap/dist/css/bootstrap.min.css";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Accordion from "react-bootstrap/Accordion";

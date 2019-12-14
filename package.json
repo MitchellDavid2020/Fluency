@@ -1,5 +1,5 @@
 {
-  "name": "ps-redux",
+  "name": "dkm-byui",
   "homepage": "https://MitchellDavid2020.github.io/Fluency",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --port 3000",
